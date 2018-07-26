@@ -1,0 +1,40 @@
+.icon {
+    border-radius: 50%;
+}
+.hl-banner {
+    height: 30vh;
+    background-image: url("stonehaven.png");
+    background-size: cover;    
+}
+.core-comps {
+    background-image: url("stonehaven.png");
+    background-size: cover;  
+}
+.cc-text {
+    height: 10vh;
+}
+.cc-photos {
+    height: 20vh;
+}
+.gv {
+    background-image: url("globalvigilance.jpg");
+    background-size: cover;
+}
+.gr {
+    background-image: url("globalreach.jpg");
+    background-size: cover;
+}
+.gp {
+    background-image: url("globalpower.jpg");
+    background-size: cover;
+}
+.text-white {
+    color: white;
+}
+footer {
+    height: 15vh;
+}
+.bg-afblue {
+    background-color: rgb(51, 51, 145);
+    color: silver;
+}
