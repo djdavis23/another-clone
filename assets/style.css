@@ -1,40 +1,97 @@
+
+/* HEADER */
+
 .icon {
     border-radius: 50%;
 }
+.logocenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    list-style-type: none;
+    display: flex;    
+    justify-content: space-evenly;
+}
+
+/* HEADLINE BANNER */
+
 .hl-banner {
-    height: 30vh;
+    height: 40vh;
     background-image: url("stonehaven.png");
     background-size: cover;    
 }
+.headline {
+    font-family: 'Anton', sans-serif;
+}
+
+/* CORE COMPENTENCIES BANNER */
+
 .core-comps {
     background-image: url("stonehaven.png");
     background-size: cover;  
 }
 .cc-text {
-    height: 10vh;
+    height: 15vh;
 }
 .cc-photos {
-    height: 20vh;
+    height: 30vh;    
 }
-.gv {
-    background-image: url("globalvigilance.jpg");
+.cc-photo {
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+/* FOOTER */
+
+footer {
+    height: 15vh;
+}
+.flex-right {
+    display: flex;    
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer li {
+    margin-left: 1em;
+}
+
+/* BACKGROUNDS AND HELPER CLASSES */
+
+.gv {
+    background-image: url("globalvigilance.jpg");    
 }
 .gr {
-    background-image: url("globalreach.jpg");
-    background-size: cover;
+    background-image: url("globalreach.jpg");    
 }
 .gp {
-    background-image: url("globalpower.jpg");
-    background-size: cover;
+    background-image: url("globalpower.jpg");    
 }
 .text-white {
     color: white;
-}
-footer {
-    height: 15vh;
 }
 .bg-afblue {
     background-color: rgb(51, 51, 145);
     color: silver;
 }
+.bg-afblue li a {
+    color: silver;
+}
+li a:hover {
+    color: white;
+}
+.med-font {
+    font-size: 2em;
+}
+
+
+

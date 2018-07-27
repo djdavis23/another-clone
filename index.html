@@ -8,17 +8,20 @@
     <title>Another Clone</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
     <header class="container-fluid bg-afblue">
         <div class="row">
-            <div class="col-sm-6">
-                <img class="icon" src="assets/AFLogo.jpg" height="70px" alt="AF-logo">
+            <div class="col-sm-6 logocenter">
+                <img class="icon my-2" src="assets/AFLogo.jpg" height="70px" alt="AF-logo">
             </div>
             <div class="col-sm-6">
-                <ul>
+                <ul class="navbar">
                     <li>
                         <a href="#">ABOUT</a>
                     </li>
@@ -41,9 +44,11 @@
     </header>
     <main class="container-fluid">
         <div class="row hl-banner">
-            <div class="col-sm-6">
-                <h1>America's Air Force</h1>
-                <p>Fly, Fight and Win ...in Air, Space and Cyberspace</p>
+            <div class="col-sm-6 text-center">
+                <h1 class="mt-5 headline">America's Air Force</h1>
+                <h5>
+                    <em>Fly, Fight and Win ...in Air, Space and Cyberspace</em>
+                </h5>
                 <img src="assets/aimhigh.gif" height="50px" alt="aim high logo">
             </div>
             <div class="col-sm-6">
@@ -52,40 +57,82 @@
         </div>
         <div class="row bg-afblue text-center">
             <div class="col-sm-12">
-                <h2>The U.S. Air Force is the world's preeminent force in air, space and cyberspace. We maintain that distinction by maintaining our objective of global vigilance, reach and power and remaining true to our vision statement: The World's Greatest Air Force—Powered by Airmen, Fueled by Innovation.</h2>
+                <h2 class="my-3">
+                    <em> The U.S. Air Force is the world's preeminent force in air, space and cyberspace. We maintain that distinction
+                        by maintaining our objective of global vigilance, reach and power and remaining true to our vision
+                        statement: The World's Greatest Air Force—Powered by Airmen, Fueled by Innovation.</em>
+                </h2>
             </div>
         </div>
         <div class="row core-comps">
             <div class="col-sm-12 text-center">
                 <div class="row cc-text text-center">
-                    <h2>Keeping America Secure Through</h2>
+                    <h2 class="col-sm-12 my-3">
+                        <b>Keeping America Secure Through</b>
+                    </h2>
                 </div>
-                <div class="row cc-photos">
-                        <div class="col-sm-3 gv text-white">
-                                <h4>GLOBAL VIGILANCE</h4>
-                            </div>
-                            <div class="col-sm-3 gr text-white">
-                                <h4>GLOBAL REACH</h4>
-                            </div>
-                            <div class="col-sm-3 gp text-white">
-                                <h4>GLOBAL POWER</h4>
-                            </div>
+                <div class="row cc-photos justify-content-center">
+                    <div class="col-sm-3 gv text-white cc-photo">
+                        <h4>GLOBAL VIGILANCE</h4>
+                    </div>
+                    <div class="col-sm-3 gr text-white cc-photo">
+                        <h4>GLOBAL REACH</h4>
+                    </div>
+                    <div class="col-sm-3 gp text-white cc-photo">
+                        <h4>GLOBAL POWER</h4>
+                    </div>
                 </div>
-                <div class="row cc-text">
-                    <div class="col-sm-3"><p>Global Vigilance</p> </div>
-                    <div class="col-sm-3"><p>Global Reach</p></div>
-                    <div class="col-sm-3"><p>Global Power</p></div>
+                <div class="row cc-text justify-content-center">
+                    <div class="col-sm-3">
+                        <p>We stand ready to defend America and her allies ANYWHERE.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>We can rapidly deploy overwhelming force ANYWHERE.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>We can strike with surgical precision and devastating power ANYWHERE.</p>
+                    </div>
                 </div>
             </div>
-            
+
         </div>
     </main>
     <footer class="container-fluid bg-afblue">
         <div class="row">
-            <div class="col-sm-5">Social Media here</div>
-            <div class="col-sm-2">Phone email</div>
-            <div class="col-sm-5">Address</div>
-
+            <div class="col-sm-5 flex-right">
+                <ul class="navbar med-font">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-3 flex-right">
+                <p>
+                    <b>Phone:</b> 1-800-555-BLUE
+                    <br>
+                    <b>Email:</b> aimhigh@us.af.mil</P>
+            </div>
+            <div class="col-sm-4 flex-left">
+                <p>1947 Hap Arnold Ave
+                    <br>Fighertown, U.S.A.</p>
+            </div>
         </div>
     </footer>
 </body>
