@@ -24,6 +24,7 @@
 }
 .headline {
     font-family: 'Anton', sans-serif;
+    margin-top: 9rem;
 }
 
 /* CORE COMPENTENCIES BANNER */
@@ -92,6 +93,10 @@ li a:hover {
 .med-font {
     font-size: 2em;
 }
+.img-cont img {
+    max-width: 100%;
+}
+
 
 
 
